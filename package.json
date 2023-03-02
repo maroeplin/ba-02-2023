@@ -1,0 +1,23 @@
+{
+  "name": "ba-02-2023",
+  "version": "1.0.0",
+  "description": "katharina-ba-2023",
+  "main": "main.js",
+
+  "scripts": {
+    "start": "node ./main.js",
+    "dev": "NODE_ENV=development PORT=5000 node ./main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.12.1"
+  },
+
+  "keywords": [
+    "websockets",
+    "heroku"
+  ]
+
+}
